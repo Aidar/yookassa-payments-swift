@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.ios.dependency 'YooMoneySessionProfiler', '~> 5.0.4'
   s.ios.dependency 'YooMoneyUI', '~> 7.7'
   s.ios.dependency 'AppMetricaAnalytics', '~> 5.8'
-  s.ios.dependency 'SPaySDK', '2.3.0'
+  s.ios.dependency 'SPaySDK', '2.3.1'
   s.ios.dependency 'FMobileSdk', '~> 2.0.0-1231'
 
 end
