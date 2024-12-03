@@ -204,7 +204,7 @@ final class InputPanCardView: UIView {
             cardPanRightButton.setImage(nil, for: .normal)
             cardPanRightButton.isHidden = true
         case .clear:
-            cardPanRightButton.setImage(.clear, for: .normal)
+            cardPanRightButton.setImage(.yClear, for: .normal)
             cardPanRightButton.isHidden = false
         case .scan:
             let image = UIImage.PaymentSystem.TextControl.scan.colorizedImage(

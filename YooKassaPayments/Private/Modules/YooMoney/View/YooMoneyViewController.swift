@@ -385,7 +385,7 @@ extension YooMoneyViewController: YooMoneyViewInput {
 
         paymentMethodView.title = viewModel.paymentMethod.title
         paymentMethodView.subtitle = viewModel.paymentMethod.subtitle ?? ""
-        paymentMethodView.image = UIImage.avatar
+        paymentMethodView.image = UIImage.yAvatar
 
         paymentMethodView.rightButtonTitle = Localized.logout
         paymentMethodView.output = self

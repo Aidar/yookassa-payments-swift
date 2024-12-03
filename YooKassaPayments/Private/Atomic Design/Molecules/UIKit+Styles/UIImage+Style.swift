@@ -28,17 +28,17 @@ extension UIImage {
 
     /// - Note: No need to make them  Use styles instead.
 
-//    static var clear: UIImage {
-//        return named("clearImage")
-//    }
+    static var yClear: UIImage {
+        return named("clearImage")
+    }
 
     static var error: UIImage {
         return named("errorImage")
     }
 
-//    static var avatar: UIImage {
-//        return named("avatar")
-//    }
+    static var yAvatar: UIImage {
+        return named("avatar")
+    }
 
     static var back: UIImage {
         return named("barButtonItem.back").withRenderingMode(.alwaysOriginal)
